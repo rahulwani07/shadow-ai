@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #00ffcc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  background-color: #111;
+  border-bottom: 1px solid #00ffcc;
+  font-size: 1.2em;
+}
+
+.intro {
+  margin-top: 30px;
+  font-size: 2em;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.contact-section {
+  margin-top: 20px;
+  background: #111;
+  padding: 10px;
+  border: 1px solid #00ffcc;
+  border-radius: 8px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  width: 140px;
+  border-radius: 4px;
+  border: none;
+  background: #222;
+  color: #00ffcc;
+}
+
+button {
+  padding: 6px 10px;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
